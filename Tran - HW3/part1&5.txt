@@ -1,0 +1,15 @@
+Timing Results:
+
+    TreeSet	            Random	    3.55 seconds
+    TreeSet	            Sorted	    3.86 seconds
+    BinarySearchTree	Random	    2.91 seconds
+    BinarySearchTree	Sorted	    2.85 seconds
+
+Revised Timing Results:
+
+    TreeSet	            Random	    0.12 seconds
+    TreeSet	            Sorted	    0.5 seconds
+    BinarySearchTree	Random	    1.06 seconds
+    BinarySearchTree	Sorted	    0.15 seconds
+
+The revised results highlight a clear improvement in performance after implementing balancing, particularly for sorted data input.

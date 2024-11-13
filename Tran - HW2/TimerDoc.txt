@@ -1,0 +1,16 @@
+These are the numbers that the KnapsackTimer file returned, with the left side is 'int i' ranging from 20 to 30 and the left side is the 
+'elapsed time' in seconds.
+
+20 148
+21 291
+22 523
+23 1078
+24 2216
+25 4562
+26 9367
+27 19238
+28 38866
+29 80615
+30 165128
+
+These numbers are satisfied the O(2^n) behavior, which approximately double in seconds as the int i increase, following the exponential curve.
